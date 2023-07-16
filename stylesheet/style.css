@@ -100,7 +100,7 @@ header .name {
 .intro {
   display: flex;
   justify-content: center;
-  background-image: url('/public/background-img.png');
+  background-image: url('../public/background-img.png');
   padding: 160px 0;
 }
 
