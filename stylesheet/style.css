@@ -39,6 +39,7 @@ img {
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #000;
   padding: 72px 0;
 }
@@ -123,7 +124,86 @@ img {
   gap: 24px;
 }
 
+/* About me */
+.about-me {
+  display: flex;
+  justify-content: center;
+  padding: 160px 0;
+}
 
+.about-me-left {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 636px;
+  gap: 24px;
+  margin: auto 0;
+}
 
+.characteristic {
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
 
+.characteristic h3 {
+  color: #15161D;
+  font-size: 20px;
+}
+
+.characteristic p {
+  color: #15161D;
+  font-size: 16px;
+}
+
+.about-me-right {
+  width: 526px;
+  margin-left: 150px;
+}
+
+.about-me-right h2 {
+  font-size: 64px;
+  color: #000;
+  margin-bottom: 36px;
+}
+
+.about-me-right p {
+  font-size: 24px;
+  color: #15161D;
+}
+
+.contact-info {
+  display: flex;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-left {
+  display: flex;
+  margin-right: 113px; 
+}
+
+.contact-left h2 {
+  font-size: 64px;
+  color: #fff;
+  margin-right: 13px;
+}
+
+.contact-left img {
+  width: 100px;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: space-between;
+  margin: 96px 0;
+  width: 526px;
+}
+
+.contact-right img {
+  width: 162px;
+  border-radius: 40px;
+}
 
