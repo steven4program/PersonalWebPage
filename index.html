@@ -13,27 +13,27 @@
 </head>
 
 <body>
-  <div class="nav">
+  <nav>
     <ul>
       <li>WILLIAM LEE</li>
       <li>BASED IN TAIWAN</li>
       <li>CURRENTLY FRONT END ENGINEER AT HEXSCHOOL</li>
-      <li>CONTACT ME</li>
+      <li><a href="#contact-info">CONTACT ME</a></li>
     </ul>
-  </div>
-  <div class="header">
-    <img class="avatar" src="./public/people.png" alt="avatar">
-    <div class="header-text">
-      <p>Hi</p>
-      <p>I’m a front-end developer</p>
-      <p class="name">William</p>
-      <div class="contact-me">
-        <p>contact me</p>
-        <img class="arrow_outward" src="./public/arrow_outward.png" alt="arrow_outward">
+    <header>
+      <img class="avatar" src="./public/people.png" alt="avatar">
+      <div class="header-text">
+        <p>Hi</p>
+        <p>I’m a front-end developer</p>
+        <p class="name">William</p>
+        <a class="contact-me" href="#contact-info">
+          <p>contact me</p>
+          <img class="arrow_outward" src="./public/arrow_outward.png" alt="arrow_outward">
+        </a>
       </div>
-    </div>
-  </div>
-  <div class="intro">
+    </header>
+  </nav>
+  <section class="intro">
     <div class="intro-block">
       <div class="intro-left">
         <h2>Introduction</h2>
@@ -51,8 +51,8 @@
         <img src="./public/people-2.png" alt="people">
       </div>
     </div>
-  </div>
-  <div class="about-me">
+  </section>
+  <section class="about-me">
     <div class="about-me-left">
       <div class="characteristic">
         <h3>01</h3>
@@ -82,18 +82,45 @@
         to stay
         up-to-date in the field.</p>
     </div>
-  </div>
-  <div class="contact-info">
+  </section>
+  <section class="contact-info" id="contact-info">
     <div class="contact-left">
       <h2>contact me</h2>
       <img src="./public/trending_flat_black_24dp 1.png" alt="trending_flat">
     </div>
     <div class="contact-right">
-      <img src="./public/discord.png" alt="discord icon" class="link-icon">
-      <img src="./public/instagram.png" alt="ig icon" class="link-icon">
-      <img src="./public/message.png" alt="message icon" class="link-icon">
+      <a href="#contact-info">
+        <img src="./public/discord.png" alt="discord icon" class="link-icon">
+      </a>
+      <a href="#contact-info">
+        <img src="./public/instagram.png" alt="ig icon" class="link-icon">
+      </a>
+      <a href="#contact-info">
+        <img src="./public/message.png" alt="message icon" class="link-icon">
+      </a>
     </div>
-  </div>
+  </section>
+  <section class="project">
+    <h2>My Projects</h2>
+    <div class="project-wrapper">
+      <img src="./public/Rectangle 10.png" alt="Rectangle 10">
+      <div class="project-content">
+        <div class="upper-content">
+          <img src="./public/Rectangle 15.png" alt="Rectangle 15">
+          <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in
+            creating
+            clean, efficient, and user-friendly code.</p>
+        </div>
+        <div class="bottom-content">
+          <img src="./public/Rectangle 14.png" alt="Rectangle 14">
+          <img src="./public/Rectangle 29.png" alt="Rectangle 29">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>all rights reserved @hexschool2023</p>
+  </footer>
 </body>
 
 </html>
